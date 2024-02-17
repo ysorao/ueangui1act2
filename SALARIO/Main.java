@@ -2,7 +2,11 @@ import java.util.*;
 
 public class Main{
     public static void main(String[] args) {
-        System.out.println("\n\n*************************************************\n********** Ejercicio Financiero Pedro ***********\n*************************************************");
+
+        System.out.println("\n\n***************************************************");
+            System.out.println("**********  Ejercicio Financiero Pedro  ***********");
+            System.out.println("***************************************************");      
+        System.out.println("\nEste programa le permite realizar el calculo de gastos y salario disponible\n");
         System.out.println("Para realizar el calculo adecuado necesitaremos los siguientes datos");
         Scanner datos = new Scanner(System.in);
         System.out.println("Salario recibido: ");

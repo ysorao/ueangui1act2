@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args) {
-        
-        System.out.println("\n\n*****************************************************\n********** Realizar Operaciones ***********\n*****************************************************");
-
+        System.out.println("\n\n********************************************");
+            System.out.println("********** Realizar Operaciones  ***********");
+            System.out.println("********************************************");      
         System.out.println("\nEste programa le permite realizar Diversas operaciones con 2 numeros\n");
 
 

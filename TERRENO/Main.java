@@ -1,7 +1,10 @@
 import java.util.*;
 public class Main{
     public static void main(String[] args) {
-        System.out.println("\n\n*****************************************************\n********** Calcular Diversas areas ***********\n*****************************************************");
+
+        System.out.println("\n\n***********************************************");
+            System.out.println("********** Calcular Diversas areas  ***********");
+            System.out.println("***********************************************"); 
         System.out.println("Este Programa calcula diversas areas Ingrese el numero del Menu del area que desea calcular:\n");
 
         System.out.println("1. Calcule el area de un Rectangulo");

@@ -2,7 +2,9 @@ import java.util.*;
 
 public class Main{
     public static void main(String[] args) {
-        System.out.println("\n\n*****************************************************\n********** Calcular Distancias ***********\n*****************************************************");
+        System.out.println("\n\n*******************************************");
+            System.out.println("********** Calcular Distancias  ***********");
+            System.out.println("*******************************************"); 
         System.out.println("Este Programa calcula la distancia entre dos puntos, basado en las coordenadas.\n");
 
         Scanner datos =  new Scanner(System.in);

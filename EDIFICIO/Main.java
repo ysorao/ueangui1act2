@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("\n\n*****************************************************");
+            System.out.println("********** Calcular capacidad Universidad ***********");
+            System.out.println("*****************************************************");      
+        System.out.println("\nEste programa calcular el número de salones y el número de pisos del nuevo edificio\n");
 
-        System.out.println("\n\n*****************************************************\n********** Calcular capacidad Universidad ***********\n*****************************************************");
 
         Scanner datos = new Scanner(System.in);     
         System.out.print("Ingrese el número de estudiantes: ");

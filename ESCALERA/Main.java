@@ -1,8 +1,12 @@
 import java.util.*;
 public class Main{
     public static void main(String[] args) {
-        System.out.println("\n\n*************************************************************\n************** Calcular Medida de una escalera **************\n*************************************************************");
 
+        System.out.println("\n\n*******************************************************");
+            System.out.println("********** Calcular Medida de una escalera  ***********");
+            System.out.println("*******************************************************");      
+        System.out.println("\nEste programa le permite realizar el calculo de la  medida de  una escalera partiendo de la altura del muro en el que descansa la parte superiror y el angulo de inclinacion de la misma\n");
+        
         Scanner datos = new Scanner(System.in);
         System.out.println("Para realizar el calculo adecuado necesitaremos los siguientes datos");
 

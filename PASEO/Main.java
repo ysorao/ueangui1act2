@@ -3,15 +3,19 @@ import java.util.*;
 public class Main{
     public static void main(String[] args) {
         Scanner datos = new Scanner(System.in);
-        System.out.println("\n\n*************************************************************\n********** Calculo de Buses para un paseo Escolar ***********\n*************************************************************");
+        System.out.println("\n\n*************************************************************");
+            System.out.println("********** Calculo de Buses para un paseo Escolar ***********");
+            System.out.println("*************************************************************");      
+        System.out.println("\nEste programa le permite calcular el  número de buses requeridos para transportar los estudiantes a un paseo.\n");
+        
         System.out.println("Para realizar el calculo adecuado necesitaremos los siguientes datos");
 
-        System.out.println("\n1. Ingrese la cantidad de estudiantes Gordos que asisten al paseo: ");
+        System.out.println("1. Ingrese la cantidad de estudiantes Gordos que asisten al paseo: ");
         int e1 = datos.nextInt();
         System.out.println("2. Ingrese la cantidad de estudiantes flacos  que asisten al paseo:");
         int e2 = datos.nextInt();
         if(e1 == 0 & e2 == 0){
-            System.out.println("\nYa  que el numero de estudiantes que  asisten es cero, no se requieren buses para esta actividad.\n");
+            System.out.println("Ya  que el numero de estudiantes que  asisten es cero, no se requieren buses para esta actividad.\n");
         }else{
             System.out.println("3. Ingrese la cantidad de puestos que tiene cada bus:");
             int b1 = datos.nextInt();

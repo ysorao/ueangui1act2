@@ -2,7 +2,9 @@ import java.util.*;
 
 public class Main{
     public static void main(String[] args) {
-        System.out.println("\n\n*****************************************************\n********** Numeros Romanos ***********\n*****************************************************");
+        System.out.println("\n\n***************************************");
+            System.out.println("********** Números Romanos  ***********");
+            System.out.println("***************************************");      
 
         System.out.println("\nEste programa le permite convertir números enteros menores a 100 a números romanos\n");
         Scanner datos = new Scanner(System.in);     

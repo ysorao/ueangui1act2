@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args) {
-        System.out.println("\n\n*****************************************************\n********** Calcular el Numero Mayor ***********\n*****************************************************");
+        System.out.println("\n\n************************************************");
+            System.out.println("********** Calcular el Numero Mayor  ***********");
+            System.out.println("************************************************");      
+        System.out.println("\nEste programa hallar el numero mayor entre dos  numeros");
 
         Scanner datos = new Scanner(System.in);     
         System.out.print("Ingrese un número entero: ");

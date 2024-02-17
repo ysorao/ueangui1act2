@@ -1,8 +1,10 @@
 import java.util.*;
 public class Main{
     public static void main(String[] args) {
-        System.out.println("\n\n**************************************************\n********** Calcular Area de un circulo ***********\n**************************************************");
-        System.out.println("Este Programa calcula el area de un circulo, a partir de su radio, solicitaremos el datos de dos circunferencias para calcular la corona (diferencia entre las dos areas.)");
+        System.out.println("\n\n***************************************************");
+            System.out.println("********** Calcular Area de un circulo  ***********");
+            System.out.println("***************************************************");      
+        System.out.println("\nEste Programa calcula el area de un circulo, a partir de su radio, solicitaremos el datos de dos circunferencias para calcular la corona (diferencia entre las dos areas.\n");
         Scanner datos = new Scanner(System.in);
         System.out.println("Ingresa el Radio del Primer Circulo es: ");
         double radio1 = datos.nextDouble();
